@@ -2,4 +2,9 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color: #e7f0ff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /*   line-height: 1.5; */
 }
