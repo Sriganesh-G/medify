@@ -6,6 +6,7 @@ import Grid from "@mui/material/Grid2";
 import { Button, Typography } from "@mui/material";
 import logo from "../../public/assets/logo.png";
 import "../App.css";
+import Buttons from "./Buttons.jsx";
 
 const Navbar = () => {
   return (
@@ -71,23 +72,7 @@ const Navbar = () => {
           <Typography>Facilities</Typography>
         </Grid>
         <Grid size={1.33}>
-          <button
-            style={{
-              color: "white",
-              fontSize: "14px",
-              backgroundColor: "#2AA8FF",
-              height: "40px",
-              padding: "20px",
-              border: "none",
-              borderRadius: "8px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              cursor: "pointer",
-            }}
-          >
-            My Bookings
-          </button>
+          <Buttons value={"My Bookings"}></Buttons>
         </Grid>
       </Grid>
     </div>
